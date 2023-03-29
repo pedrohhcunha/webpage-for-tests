@@ -1,0 +1,61 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web tracker test page</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="header__logo">
+            <a href="index.html" class="header__logo-link" data-tracker="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo" class="header__logo-img">
+            </a>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href="index.html" class="header__nav-link" data-tracker="nav-home">Home</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="index.html" class="header__nav-link" data-tracker="nav-about">About</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="index.html" class="header__nav-link" data-tracker="nav-contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section">
+            <h1 class="section__title" data-tracker="section-title">Section title</h1>
+            <p class="section__text" data-tracker="section-text">Lorem ipsum dolor sit amet</p>
+            <button class="section__button" data-tracker="section-button">Button</button>
+            <a href="index.html" class="section__link" data-tracker="section-link">Link</a>
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo" class="section__img">
+        </section>
+        <article class="article">
+            <h2 class="article__title" data-tracker="article-title">Article title</h2>
+            <p class="article__text" data-tracker="article-text">Lorem ipsum dolor sit amet</p>
+            <button class="article__button" data-tracker="article-button">Button</button>
+            <a href="index.html" class="article__link" data-tracker="article-link">Link</a>
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo" class="article__img">
+        </article>
+        <form action="index.html" class="form">
+            <input type="text" class="form__input" data-tracker="form-input">
+            <select name="form__select" id="form__select" class="form__select" data-tracker="form-select">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+            <textarea name="form__textarea" id="form__textarea" cols="30" rows="10" class="form__textarea" data-tracker="form-textarea"></textarea>
+            <button class="form__button" data-tracker="form-button">Button</button>
+            <input type="checkbox" class="form__checkbox" data-tracker="form-checkbox">
+        </form>
+    </main>
+        <footer class="footer">
+            <p class="footer__text" data-tracker="footer-text">Lorem ipsum dolor sit amet</p>
+            <a href="index.html" class="footer__link" data-tracker="footer-link">Link</a>
+        </footer>
+    </body>
+</html>
